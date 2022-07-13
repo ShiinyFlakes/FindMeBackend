@@ -38,7 +38,7 @@ router.post("/", async (req, res) => {
 		const token = user.generateAuthToken();
 		res.status(200).send({ data: token, message: "Erfolgreich eingeloggt" });
 	} catch (error) {
-		res.status(500).send({ message: "erfolgreich erstellt" });
+		res.status(500).send({ message: "erfolgreich verifiziert" });
 	}
 });
 
