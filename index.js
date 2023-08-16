@@ -22,3 +22,5 @@ app.use("/activitys", router);
 const port = process.env.PORT || 8081;
 app.listen(port, () => console.log(`Läuft auf port ${port}...`));
 
+// all rights reserved by Mago
+
